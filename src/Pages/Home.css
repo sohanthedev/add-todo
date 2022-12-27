@@ -1,0 +1,42 @@
+.style-to-do{
+
+    color:#333333;
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+.to-do{
+    text-align: center;
+    margin: 40px 0;
+    background: url('https://media.istockphoto.com/id/1184426485/photo/black-woman-typing-on-laptop-at-worplace-on-orange-background.jpg?b=1&s=170667a&w=0&k=20&c=zgpdzjNybI1bemuH4jWUvMH0oyrXBbO3hRv7UrxOV-w=');
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}   
+.imgBanner{
+    width: 80%;
+}
+.add-task{
+    text-decoration: none;
+    
+    font-weight: 600;
+    height: 50px;
+    color: white;
+}
+.btn-add-task{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.main-btn{
+   padding: 8px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    
+}
