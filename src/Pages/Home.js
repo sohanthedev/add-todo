@@ -10,12 +10,13 @@ const Home = () => {
 
     useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ["Welcome to your ", "to do List"], // Strings to display
+        strings: ["Welcome to your ", "ToDo List App", "Add Som Todo's"], // Strings to display
         // Speed settings, try diffrent values untill you get good results
         startDelay: 300,
-        typeSpeed: 200,
+        typeSpeed: 100,
         backSpeed: 100,
-        backDelay: 100
+        backDelay: 200,
+        loop: 1
       });
       return () => {
         typed.destroy();
@@ -23,17 +24,17 @@ const Home = () => {
     }, []);
     return (
         <div >
-            <div className='to-do'>
+            <div className='to-do shadow-lg'>
             <p className='style-to-do' ref={el}></p>
 
             </div>
             <div className='btn-add-task'>
-            <button className='main-btn'><Link className='add-task' to='/addTask'>Add Task</Link></button>
+            <button className='main-btn shadow-md'><Link className='add-task' to='/addTask'>Add Task</Link></button>
             </div>
-            <div>
-            <img className='imgBanner' src="https://d12y7sg0iam4lc.cloudfront.net/s/img/marketing/top-todo-app/to-do-list.png" alt="" />
+            <div className='flex justify-center '>
+          <img className='imgBanner min-w-full' src="https://d12y7sg0iam4lc.cloudfront.net/s/img/marketing/top-todo-app/to-do-list.png" alt="" />
             </div>
-            
+
         </div>
     );
 };

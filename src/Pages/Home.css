@@ -1,29 +1,27 @@
 .style-to-do{
 
-    color:#333333;
+    color:#ffffff;
     font-size: 40px;
     font-weight: 700;
-    
-    
+
+
 }
 .to-do{
-    text-align: center;
-    margin: 40px 0;
-    background: url('https://media.istockphoto.com/id/1184426485/photo/black-woman-typing-on-laptop-at-worplace-on-orange-background.jpg?b=1&s=170667a&w=0&k=20&c=zgpdzjNybI1bemuH4jWUvMH0oyrXBbO3hRv7UrxOV-w=');
+    background:linear-gradient(to top, #02394b, rgba(0, 0, 0, 0.247)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn_Nbj0QLS4zRWS76FMqjdeEaqOEHkq-IAaw&usqp=CAU');
     background-repeat: no-repeat;
     background-position: center;
    background-size: cover;
     height: 300px;
     display: flex;
     justify-content: center;
-    
-}   
+    align-items: center;
+
+}
 .imgBanner{
     width: 80%;
 }
 .add-task{
     text-decoration: none;
-    
     font-weight: 600;
     height: 50px;
     color: white;
@@ -31,12 +29,13 @@
 .btn-add-task{
     text-align: center;
     margin-bottom: 20px;
-    
+
 }
 .main-btn{
+    margin-top: 30px;
    padding: 8px 30px;
-    background-color: orange;
+    background-color: #0c92bf;
     border: none;
     border-radius: 10px;
-    
+
 }

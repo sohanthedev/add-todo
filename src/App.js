@@ -39,7 +39,7 @@ function App() {
         },
         {
           path:'/completed',
-          element:<Completed></Completed>
+          element: <PrivateRout><Completed></Completed></PrivateRout>
         }
       ]
     }
